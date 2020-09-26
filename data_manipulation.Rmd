@@ -96,5 +96,11 @@ mutate(
   group = str_to_lower(group))
 ```
 
+## `arrange` -- put things in order 
+
+
+```{r}
+arrange(litters_df, pups_born_alive)
+```
 
 
